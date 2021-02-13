@@ -6,5 +6,5 @@ git push
 
 python game.py
 git add .
-git commit -m "remove markdown"
+git commit -m "new markdown"
 git push
