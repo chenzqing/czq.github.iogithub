@@ -2,7 +2,7 @@
 #git commit -m "remove markdown"
 #git push
 
-#python start.py
+python game.py
 git add .
 git commit -m "remove markdown"
 git push
