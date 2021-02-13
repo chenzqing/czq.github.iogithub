@@ -1,10 +1,11 @@
 git rm ./cards/*
 mkdir cards
 git add .
-git commit -m "remove markdown"
+git commit -m "remove "
 git push
 
 python game.py
+
 git add .
-git commit -m "new markdown"
+git commit -m "new"
 git push
