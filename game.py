@@ -1,7 +1,7 @@
 import cv2,os
 import numpy as np
 
-ids = ['0','1','2','3','4','5','6']
+ids = ['0','1','2','3','4','5']
 pss = [0,1,2,3,4,5,6]
 
 class player():
@@ -128,9 +128,9 @@ class game():
 
     def show_player(self):
         for p in self.players:
-            print(p.id, p.name)
-            print(p.wcard)
-            print(p.rcard)
+            #print(p.id, p.name)
+            #print(p.wcard)
+            #print(p.rcard)
             p.showcard()
 
     def get_wcards(self,num):
@@ -151,6 +151,7 @@ class game():
 
     def run(self):
         self.ids = ids #获取身份
+        #print(self.)
         self.create_player(self.ids)
         self.show_player()
 
@@ -159,7 +160,7 @@ class game():
 
 g = game(6)
 g.run()
-# print(g.get_id())
+print(g.get_id())
 
 
 
