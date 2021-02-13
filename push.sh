@@ -1,6 +1,6 @@
-#git rm demo/*
-#git commit -m "remove markdown"
-#git push
+git rm ./cards/*
+git commit -m "remove markdown"
+git push
 
 python game.py
 git add .
